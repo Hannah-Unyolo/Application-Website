@@ -1,0 +1,250 @@
+.topheader{
+    display: flex;
+    gap: 25%; 
+}
+
+.topnav{
+    display: inline-flex;
+    gap: 20%;
+}
+
+#login{
+    display: inline-flex;
+    gap: 50px;
+}
+#container{
+    margin: 50px;
+    padding: 20px;
+}
+#dit{
+    display: flex;
+    margin: 30px;
+}
+
+.apple{
+    display: flex;
+    gap: 50px;
+}
+#over{
+    text-align: center;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    margin: 30%;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+.content1{
+    display: flex;
+    gap: 10%;
+}
+.content2{
+    text-align: center;
+    margin-top: 0%;
+}
+.interface{
+    display: flex;
+    gap: 10%;
+margin: 30%;
+margin-top: 0%;
+}
+
+.figure{
+    display: flex;
+    gap: 10px;
+}
+#microsoft{
+    width: 150px;
+}
+#google{
+    width: 150px;
+}
+#Over{
+    text-align: center;
+}
+#app{
+background-color: navy;
+    color: aqua;
+    font-weight: bold;
+    border-radius: 15px;
+}
+#play{
+    font-weight: bold;
+    border-radius: 15px; 
+}
+
+.content3{
+    display: flex;
+    gap: 10%;
+    margin: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+#know{
+    background-color: navy;
+    color: aqua;
+    font-weight: bold;
+    border-radius: 15px;   
+}
+#Easy{
+    border: solid;
+    border-color: brown;
+}
+
+.content4{
+    display: flex;
+    gap: 10%;
+    margin: 40px;
+}
+#see{
+    margin: 40px;
+}
+.content5{
+    display: flex;
+    gap: 10%;
+    margin: 40px;
+}
+#girl-laptop{
+    width: 60%;
+}
+.content6{
+    display: flex;
+    gap: 0%;
+    margin: 40px;
+}
+.footer{
+    background-color: navy;
+    color: aquamarine;
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    padding-bottom: 100px;
+
+  }
+
+  #client1{
+    border: solid;
+    border-color: brown;
+  }
+  #Sign{
+    border-radius: 12px;
+    width: 80%;
+    height: 80%;
+    font-weight: bold;
+    background-color: pink;
+  }
+  @media (max-width: 2109px) and (min-width: 0px){
+    .topheader{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+    .topnav{
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    .content1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #man{
+        width: 70%;
+    }
+    .figure{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logos{
+        display: flex;
+   flex-wrap: wrap;
+   margin: 0%;
+   width: 40%;
+    }
+    
+    .content1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    .content2{
+        margin: 0%;
+    }
+    .interface{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0%;
+    }
+    .apple{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+    .content4{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0%;
+        width: 50%;
+    }
+    #man2{
+        width: 100%;
+    }
+    .content5{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        width: 50%;
+    }
+    .footer{
+        background-color: navy;
+        color: aquamarine;
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+    
+      }
+      .content3{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0%;
+        
+    }
+    #container{
+        margin: 0px;
+        
+    }
+    .content6{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0%;
+    }
+    #Over{
+        width: 50%;
+    }
+    #product{
+        width: 40%;
+    }
+    #see{
+        margin: 0%;
+        width: 40%;
+    }
+    #see1{
+        width: 40%;
+    }
+    #different{
+        width: 40%;
+    }
+    #app{
+width: 40%;
+        }
+        #play{
+width: 40%;
+        }
+    
+  }
+
+
